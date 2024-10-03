@@ -4,7 +4,8 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send('hello world!');
+    //res.setHeader('Content-Type', 'text/html');
+    res.send('<h>hello world!</h>');
 })
 
 
